@@ -1,5 +1,7 @@
 # hueston
-Hueston to Ground Control - Philips Hue Control Center
+Hueston to Ground Control - Philips Hue Control Center developed in Flask.
+
+###
 
 
 ### Functionality
@@ -8,6 +10,8 @@ Hueston to Ground Control - Philips Hue Control Center
 - Scripting in order to control
   - querying current bulb status
   - device locations, last activity, etc. (hueston-mobile, hueston-native client repositories)
+- Service jobs for all scripting and API calls and in addition to run timed operations
+- Ability to deploy to Heroku, without the need for a second dyno for just jobs (instead run services synchronously).
 
 
 ### Scripting use cases
